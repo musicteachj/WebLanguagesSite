@@ -1,3 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	background-color: blue;
 }
+
+#header {
+	margin: 0 auto;
+	background-color: green;
+	text-align: center;
+	width: 100%;
+}
+
+#container {
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+}
+
+#left {
+	width: 20%;
+	float: left;
+	height: 400px;
+	background-color: pink;
+	text-align: center;
+	margin: 60px 20px 0px 20px;
+	display: block;
+}
+
+#info {
+	width: 60%;
+	float: right;
+	height: 400px;
+	background-color: purple;
+	text-align: center;
+	margin: 60px 20px 0px 20px;
+	display: block;
+}
+
+#footer {
+	background-color: grey;
+	float: left;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	position: absolute;
+	bottom: 0;
+}
+
+#footer h1 {
+}
+
