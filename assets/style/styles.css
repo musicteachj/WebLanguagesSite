@@ -9,9 +9,16 @@ body {
 
 #header {
 	margin: 0 auto;
-	background-color: green;
+	background-color: purple;
 	text-align: center;
 	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	height: 60px;
+}
+
+#header h1 {
+	padding-top: 10px;
 }
 
 #container {
@@ -28,6 +35,16 @@ body {
 	text-align: center;
 	margin: 60px 20px 0px 20px;
 	display: block;
+	font-family: 'Roboto', sans-serif;
+	border-style: solid;
+	border-width: 3px;
+	border-color: purple;
+	background: radial-gradient(blue, purple);
+	color: white;
+}
+
+#left h1 {
+	margin: 20px 0px 20px 0px;
 }
 
 #info {
@@ -38,16 +55,37 @@ body {
 	text-align: center;
 	margin: 60px 20px 0px 20px;
 	display: block;
+	font-family: 'Roboto', sans-serif;
+	padding: 0px 10px 0px 10px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: purple;
+	background: radial-gradient(blue, purple);
+	color: white;
+}
+
+#info h1 {
+	margin: 20px 0px 20px 0px;
 }
 
 #footer {
-	background-color: grey;
+	background-color: purple;
 	float: left;
-	height: 100px;
+	height: 80px;
 	width: 100%;
 	text-align: center;
 	margin-top: 20px;
 	position: absolute;
 	bottom: 0;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+#footer h1 {
+	padding-top: 15px;
+}
+
+a {
+	color: white;
 }
 
