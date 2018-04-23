@@ -3,8 +3,17 @@
 	padding: 0;
 }
 
+html {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
 body {
 	background-color: #1E1E1E;
+	position:absolute;
+min-width:100%;
+min-height:100%;
 }
 
 #header {
