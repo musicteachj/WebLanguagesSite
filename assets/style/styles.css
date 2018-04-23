@@ -30,15 +30,15 @@ body {
 #left {
 	width: 20%;
 	float: left;
-	height: 400px;
+	height: 550px;
 	background-color: pink;
 	text-align: center;
-	margin: 60px 20px 0px 20px;
+	margin: 40px 20px 0px 20px;
 	display: block;
 	font-family: 'Roboto', sans-serif;
 	border-style: solid;
 	border-width: 3px;
-	border-color: purple;
+	border-color: #790086;
 	background: radial-gradient(blue, purple);
 	color: white;
 }
@@ -47,19 +47,25 @@ body {
 	margin: 20px 0px 20px 0px;
 }
 
+#left li {
+	margin-top: 30px;
+	list-style-type: none;
+}
+
 #info {
 	width: 60%;
 	float: right;
-	height: 400px;
+	height: 550px;
 	background-color: purple;
 	text-align: center;
-	margin: 60px 20px 0px 20px;
+	margin: 40px 20px 0px 20px;
 	display: block;
 	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
 	padding: 0px 10px 0px 10px;
 	border-style: solid;
 	border-width: 3px;
-	border-color: purple;
+	border-color: #790086;
 	background: radial-gradient(blue, purple);
 	color: white;
 }
@@ -71,7 +77,7 @@ body {
 #footer {
 	background-color: purple;
 	float: left;
-	height: 80px;
+	height: 40px;
 	width: 100%;
 	text-align: center;
 	margin-top: 20px;
@@ -82,10 +88,17 @@ body {
 }
 
 #footer h1 {
-	padding-top: 15px;
+	padding-top: 10px;
+	font-size: 15px;
 }
 
 a {
 	color: white;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: purple;
+	padding: 5px;
+	background-color: #1E1E1E;
+	text-decoration: none;
 }
 
