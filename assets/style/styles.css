@@ -39,7 +39,7 @@ min-height:100%;
 #left {
 	width: 20%;
 	float: left;
-	height: 440px;
+	height: 430px;
 	background-color: pink;
 	text-align: center;
 	margin: 40px 20px 0px 20px;
@@ -78,13 +78,13 @@ min-height:100%;
 	background-color: #1E1E1E;
 	text-decoration: none;
 	display: inline-block;
-    width: 70px;
+    width: 64px;
     
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
     top: -0.2px;
-    left: 110%;
+    left: 105%;
     opacity: 0;
     transition: opacity 1s;
 }
@@ -97,7 +97,7 @@ min-height:100%;
 #info {
 	width: 60%;
 	float: right;
-	height: 440px;
+	height: 430px;
 	background-color: purple;
 	text-align: center;
 	margin: 40px 20px 0px 20px;
@@ -182,7 +182,7 @@ a {
 	background-color: #1E1E1E;
 	text-decoration: none;
 	display: inline-block;
-    width: 80px;
+    width: 78px;
 }
 
 a:hover {
