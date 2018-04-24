@@ -61,6 +61,38 @@ min-height:100%;
 	list-style-type: none;
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 70px;
+    color: white;
+	
+	border-radius: 5px;
+	
+	padding: 5px;
+	background-color: #1E1E1E;
+	text-decoration: none;
+	display: inline-block;
+    width: 70px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -0.2px;
+    left: 110%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
 #info {
 	width: 60%;
 	float: right;
@@ -81,6 +113,39 @@ min-height:100%;
 
 #info h1 {
 	margin: 10px 0px 10px 0px;
+}
+
+.tooltipinfo {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltipinfo .tooltiptextinfo {
+    visibility: hidden;
+    width: 70px;
+    color: white;
+	
+	border-radius: 5px;
+	
+	padding: 5px;
+	background-color: #1E1E1E;
+	text-decoration: none;
+	display: inline-block;
+    width: 70px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 120%;
+    left: 50%;
+    margin-left: -40px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltipinfo:hover .tooltiptextinfo {
+    visibility: visible;
+    opacity: 1;
 }
 
 #footer {
